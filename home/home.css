@@ -288,6 +288,11 @@ header .logo-site {
     margin: 90px;
     z-index: 1;
     top: 8%;
+    transition: transform 0.5s ease; 
+}
+
+.peixes:hover {
+    transform: scale(1.1); 
 }
 
 .retangulo1 {
@@ -322,6 +327,11 @@ header .logo-site {
     margin: 90px;
     z-index: 1;
     top: 42%;
+    transition: transform 0.5s ease; 
+}
+
+.invertebrados:hover {
+    transform: scale(1.1); 
 }
 
 .retangulo2 {
@@ -356,6 +366,11 @@ header .logo-site {
     margin: 90px;
     z-index: 1;
     top: 8%;
+    transition: transform 0.5s ease; 
+}
+
+.tubaroes:hover {
+    transform: scale(1.1); 
 }
 
 .retangulo3 {
@@ -390,6 +405,11 @@ header .logo-site {
     margin: 90px;
     z-index: 1;
     top: 42%;
+    transition: transform 0.5s ease; 
+}
+
+.mamiferos:hover {
+    transform: scale(1.1); 
 }
 
 .retangulo4 {
