@@ -67,7 +67,8 @@ body {
 .vetor_seta {
     display: flex;
     justify-content: center; 
-    align-items: flex-end;   
+    align-items: flex-end;
+    z-index: 1000;
 }
 
 .vetor_seta {
@@ -110,19 +111,19 @@ body {
 header {
     top: 0px;
     left: 0;
-    width: 100%; /* Faz com que o cabeçalho ocupe toda a largura da página */
-    padding: 0; /* Remove qualquer espaçamento interno */
-    margin: 0; /* Remove qualquer margem */
-    z-index: 1000; /* Garante que o cabeçalho fique acima de outros conteúdos */
+    width: 100%; 
+    padding: 0; 
+    margin: 0; 
+    z-index: 1000; 
 }
 
 header .logo-site {
     position: fixed;
-    top: 0; /* Alinha a imagem ao topo */
-    left: 0; /* Alinha a imagem à esquerda */
-    width: 105px; /* Define a largura da imagem (ajuste conforme necessário) */
-    height: auto; /* Mantém a proporção da imagem */
-    z-index: 1000; /* Garante que a imagem fique acima de outros elementos */
+    top: 0; 
+    left: 0; 
+    width: 105px; 
+    height: auto; 
+    z-index: 1000; 
     padding: 0px 10px;
     margin: 5px;
 } 
@@ -181,6 +182,7 @@ header .logo-site {
     background: none;
     padding: 0;
     cursor: pointer;
+    z-index: 1000;
 }
 
 #botao-ajuda {
@@ -205,4 +207,234 @@ header .logo-site {
     left: 0;
     width: 100%;
     height: auto;
+}
+
+#home2 {
+    width: 100%;
+    height: 100vh; 
+}
+
+.background-home2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('../imagens/fundohome2.jpeg') no-repeat center center;
+    background-size: cover; 
+}
+
+.imagem-peixes2 {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    width: 29rem; 
+    height: auto; 
+    z-index: 1; 
+}
+
+.text-fundo2 {
+    position: absolute;
+    right: 120px; 
+    top: 50%;
+    transform: translateY(-90%); 
+    color: white; 
+    text-align: right; 
+    z-index: 1; 
+   
+    
+}
+    
+.text-fundo2 h1 {
+    width: 10258px;
+    right: 120px;
+    height: 260px; 
+    color: white; 
+    font-size: 115px; 
+    font-family: Roboto Slab;
+    font-weight: 500; 
+    word-wrap: break-word
+
+}
+
+.text-fundo2 p {
+    height: 100px; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Barlow; 
+    font-weight: 600; 
+    word-wrap: break-word;
+    display: flex;
+    justify-content: right;
+    padding: 4rem;
+}
+
+.home3 {
+    background: url(../imagens/fundo3.jpg) no-repeat center center;
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.peixes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px; 
+    color: white;
+    margin: 90px;
+    z-index: 1;
+    top: 8%;
+}
+
+.retangulo1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    margin: 90px;
+    font-size: 10px;
+    width: 620px;
+    top: 8%;
+}
+
+.text-peixes {
+    position: absolute;
+    left: 345px;
+    padding: 10px; 
+    color: white;
+    margin: 90px;
+    z-index: 1;
+    top: 22%;
+    font-family: "Roboto Slab";
+    font-size: 35px;
+}
+
+.invertebrados {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 10px; 
+    color: white;
+    margin: 90px;
+    z-index: 1;
+    top: 42%;
+}
+
+.retangulo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px; 
+    margin: 90px;
+    font-size: 10px;
+    width: 620px;
+    top: 42%;
+}
+
+.text-inver {
+    position: absolute;
+    left: 290px;
+    padding: 10px; 
+    color: white;
+    margin: 90px;
+    z-index: 1;
+    top: 55%;
+    font-family: "Roboto Slab";
+    font-size: 35px;
+}
+
+.tubaroes {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px; 
+    color: white;
+    margin: 90px;
+    z-index: 1;
+    top: 8%;
+}
+
+.retangulo3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px; 
+    margin: 90px;
+    font-size: 10px;
+    width: 620px;
+    top: 8%;
+}
+
+.text-tuba {
+    position: absolute;
+    right: 345px;
+    padding: 10px; 
+    color: white;
+    margin: 90px;
+    z-index: 1;
+    top: 22%;
+    font-family: "Roboto Slab";
+    font-size: 35px;
+}
+
+.mamiferos {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 10px; 
+    color: white;
+    margin: 90px;
+    z-index: 1;
+    top: 42%;
+}
+
+.retangulo4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px; 
+    margin: 90px;
+    font-size: 10px;
+    width: 620px;
+    top: 42%;
+}
+
+.text-mamiferos {
+    position: absolute;
+    right: 290px;
+    padding: 10px; 
+    color: white;
+    margin: 90px;
+    z-index: 1;
+    top: 55%;
+    font-family: "Roboto Slab";
+    font-size: 35px;
+}
+
+.titulo-3 {
+    width: 1208px;
+    height: 830px; 
+    color: white; 
+    font-size: 115px; 
+    font-family: Roboto Slab; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    left: 40px;
+}
+
+.texto-exp {
+    margin-top: 10px; 
+    padding: 10px;
+    text-align: center; 
+}
+
+.texto-exp p {
+    margin: 0; 
+    font-size: 35px; 
+    color: white; 
+    font-family: "Roboto Slans";
 }
