@@ -12,6 +12,17 @@ body {
     display: flex;
 }
 
+.logo-site {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 6.5625rem; 
+    height: auto; 
+    z-index: 1000; 
+    padding: 0 0.625rem; 
+    margin: 0.3125rem; 
+}
+
 .imagem-fundo {
     display: block;
     width: 100vw;
@@ -27,11 +38,10 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 12rem;
+    font-size: 12rem; 
     font-weight: 800;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0.0625rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.3), 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
 }
-
 
 .text-principal .lifetext {          /* TEXTO DO LIFE */            
     color: #fff;
@@ -43,8 +53,8 @@ body {
     top: 55%;
     text-align: center;
     transform: translate(-50%, 30%);
-    font-size: 7rem;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3), 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 7rem; 
+    text-shadow: 0.0625rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.3), 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
 }
 
 .text-principal #linha-home {
@@ -53,11 +63,11 @@ body {
     left: 50%;
     top: 59%;
     transform: translate(-50%, 30%);
-    width: 48rem;
+    width: 48rem; 
 }
 
 #botao-vetor {
-    margin-bottom: 20px; 
+    margin-bottom: 1.25rem;  
     border: none;    
     outline: none;   
     background: none; 
@@ -69,11 +79,9 @@ body {
     justify-content: center; 
     align-items: flex-end;
     z-index: 1000;
-}
-
-.vetor_seta {
     position: relative;
-    height: 80vh;      
+    height: 80vh;
+    padding: 6rem; 
 }
 
 #botao-vetor {
@@ -88,28 +96,28 @@ body {
 }
 
 #botao-vetor img {
-    width: 4rem;
-    height: 3rem;
+    width: 4rem; 
+    height: 3rem; 
 }
 
-.cabecalho nav{
-    font-size: 2.1rem;
+.cabecalho nav {
+    font-size: 2.1rem; 
     text-decoration: none;
-    word-spacing: 30px;
-    gap: 10rem;
+    word-spacing: 1.875rem; 
+    gap: 10rem; 
     top: 0;
-    left: 50;
+    left: 3.125rem; 
     width: 100%;
-    background-color: rgb(0.0);
+    background-color: rgba(0, 0, 0, 0);
     color: white;
-    padding: 10px 300px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+    padding: 0.625rem 18.75rem;
+    box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.9); 
     z-index: 1000;
     line-height: 2.3;
 }
 
 header {
-    top: 0px;
+    top: 0;
     left: 0;
     width: 100%; 
     padding: 0; 
@@ -121,12 +129,16 @@ header .logo-site {
     position: fixed;
     top: 0; 
     left: 0; 
-    width: 105px; 
+    width: 6.5625rem; 
     height: auto; 
     z-index: 1000; 
-    padding: 0px 10px;
-    margin: 5px;
-} 
+    padding: 0 0.625rem; 
+    margin: 0.3125rem; 
+}
+
+.logo-site {
+    cursor: pointer;
+}
 
 .animaismenu {
     text-decoration: none;
@@ -136,7 +148,7 @@ header .logo-site {
 }
 
 .animaismenu:hover {
-    color: rgb(86, 110, 216);
+    color: rgb(81, 178, 235);
 }
 
 .sobremenu {
@@ -144,11 +156,11 @@ header .logo-site {
     color: #000000;
     font-family: "Roboto Slab", serif, medium;
     transition: color 0.6s ease-in-out;
-    word-spacing: 2px;
+    word-spacing: 0.125rem; 
 }
 
 .sobremenu:hover {
-    color: rgb(86, 110, 216);
+    color: rgb(81, 178, 235);
 }
 
 .gamemenu {
@@ -159,24 +171,24 @@ header .logo-site {
 }
 
 .gamemenu:hover {
-    color: rgb(86, 110, 216);
+    color: rgb(81, 178, 235);
 }
 
-.ajudamenu {
+.poluicaomenu {
     text-decoration: none;
     color: #000000;
     font-family: "Roboto Slab", serif, medium;
     transition: color 0.3s ease;
 }
 
-.ajudamenu:hover {
-    color: rgb(86, 110, 216);
+.poluicaomenu:hover {
+    color: rgb(81, 178, 235);
 }
 
 .help {
     position: fixed;
-    bottom: 0.5rem;
-    right: 0.5rem;
+    bottom: 0.5rem; 
+    right: 0.5rem; 
     border: none;
     outline: none;
     background: none;
@@ -186,7 +198,7 @@ header .logo-site {
 }
 
 #botao-ajuda {
-    width: 4rem;
+    width: 4rem; 
     height: 4rem;
     transition: transform 0.6s ease;
 }
@@ -194,7 +206,6 @@ header .logo-site {
 .help:hover #botao-ajuda {
     transform: scale(1.3);
     color: black;
-
 }
 
 #imagem img {
@@ -224,8 +235,8 @@ header .logo-site {
 
 .imagem-peixes2 {
     position: absolute;
-    top: 20px; 
-    left: 20px; 
+    top: 1.25rem; 
+    left: 1.25rem; 
     width: 29rem; 
     height: auto; 
     z-index: 1; 
@@ -233,41 +244,40 @@ header .logo-site {
 
 .text-fundo2 {
     position: absolute;
-    right: 120px; 
+    right: 7.5rem; 
     top: 50%;
     transform: translateY(-90%); 
     color: white; 
     text-align: right; 
     z-index: 1; 
-   
-    
 }
     
 .text-fundo2 h1 {
-    width: 10258px;
-    right: 120px;
-    height: 260px; 
+    width: 640.5rem; 
+    right: 7.5rem;
+    height: 16.25rem; 
     color: white; 
-    font-size: 115px; 
+    font-size: 7.1875rem; 
     font-family: Roboto Slab;
     font-weight: 500; 
-    word-wrap: break-word
-
+    word-wrap: break-word;
 }
 
 .text-fundo2 p {
-    height: 100px; 
+    height: 6.25rem; 
     color: white; 
-    font-size: 30px; 
+    font-size: 2.25rem;
     font-family: Barlow; 
     font-weight: 600; 
     word-wrap: break-word;
     display: flex;
     justify-content: right;
-    padding: 4rem;
+    padding: 1rem;
+    right: 12.5rem; 
+    text-align: justify;
 }
 
-.home3 {
+#home3 {
     background: url(../imagens/fundo3.jpg) no-repeat center center;
     position: relative;
     width: 100%;
@@ -283,12 +293,14 @@ header .logo-site {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 10px; 
+    padding: 0.625rem; 
     color: white;
-    margin: 90px;
+    margin: 5.625rem; 
     z-index: 1;
     top: 8%;
     transition: transform 0.5s ease; 
+
+
 }
 
 .peixes:hover {
@@ -299,32 +311,32 @@ header .logo-site {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 10px;
-    margin: 90px;
-    font-size: 10px;
-    width: 620px;
+    padding: 0.625rem; 
+    margin: 5.625rem; 
+    font-size: 0.625rem; 
+    width: 38.75rem; 
     top: 8%;
 }
 
 .text-peixes {
     position: absolute;
-    left: 345px;
-    padding: 10px; 
+    left: 21.5625rem; 
+    padding: 0.625rem; 
     color: white;
-    margin: 90px;
+    margin: 5.625rem; 
     z-index: 1;
     top: 22%;
     font-family: "Roboto Slab";
-    font-size: 35px;
+    font-size: 2.1875rem; 
 }
 
 .invertebrados {
     position: absolute;
     top: 0;
-    left: 0px;
-    padding: 10px; 
+    left: 0;
+    padding: 0.625rem; 
     color: white;
-    margin: 90px;
+    margin: 5.625rem; 
     z-index: 1;
     top: 42%;
     transition: transform 0.5s ease; 
@@ -338,32 +350,32 @@ header .logo-site {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 10px; 
-    margin: 90px;
-    font-size: 10px;
-    width: 620px;
+    padding: 0.625rem; 
+    margin: 5.625rem; 
+    font-size: 0.625rem; 
+    width: 38.75rem; 
     top: 42%;
 }
 
 .text-inver {
     position: absolute;
-    left: 290px;
-    padding: 10px; 
+    left: 18.125rem; 
+    padding: 0.625rem; 
     color: white;
-    margin: 90px;
+    margin: 5.625rem; 
     z-index: 1;
     top: 55%;
     font-family: "Roboto Slab";
-    font-size: 35px;
+    font-size: 2.1875rem; 
 }
 
 .tubaroes {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 10px; 
+    padding: 0.625rem; 
     color: white;
-    margin: 90px;
+    margin: 5.625rem; 
     z-index: 1;
     top: 8%;
     transition: transform 0.5s ease; 
@@ -377,32 +389,32 @@ header .logo-site {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 10px; 
-    margin: 90px;
-    font-size: 10px;
-    width: 620px;
+    padding: 0.625rem; 
+    margin: 5.625rem; 
+    font-size: 0.625rem; 
+    width: 38.75rem; 
     top: 8%;
 }
 
 .text-tuba {
     position: absolute;
-    right: 345px;
-    padding: 10px; 
+    right: 21.5625rem; 
+    padding: 0.625rem; 
     color: white;
-    margin: 90px;
+    margin: 5.625rem; 
     z-index: 1;
     top: 22%;
     font-family: "Roboto Slab";
-    font-size: 35px;
+    font-size: 2.1875rem; 
 }
 
 .mamiferos {
     position: absolute;
     top: 0;
-    right: 0px;
-    padding: 10px; 
+    right: 0;
+    padding: 0.625rem; 
     color: white;
-    margin: 90px;
+    margin: 5.625rem; 
     z-index: 1;
     top: 42%;
     transition: transform 0.5s ease; 
@@ -416,45 +428,244 @@ header .logo-site {
     position: absolute;
     top: 0;
     right: 0;
-    padding: 10px; 
-    margin: 90px;
-    font-size: 10px;
-    width: 620px;
+    padding: 0.625rem;  
+    margin: 5.625rem; 
+    font-size: 0.625rem; 
+    width: 38.75rem; 
     top: 42%;
 }
 
 .text-mamiferos {
     position: absolute;
-    right: 290px;
-    padding: 10px; 
+    right: 18.125rem; 
+    padding: 0.625rem; 
     color: white;
-    margin: 90px;
+    margin: 5.625rem; 
     z-index: 1;
     top: 55%;
     font-family: "Roboto Slab";
-    font-size: 35px;
+    font-size: 2.1875rem; 
 }
 
 .titulo-3 {
-    width: 1208px;
-    height: 830px; 
+    width: 75.5rem; 
+    height: 51.875rem; 
     color: white; 
-    font-size: 115px; 
+    font-size: 7.1875rem; 
     font-family: Roboto Slab; 
     font-weight: 500; 
-    word-wrap: break-word;
-    left: 40px;
+    left: 2.5rem; 
 }
 
 .texto-exp {
-    margin-top: 10px; 
-    padding: 10px;
+    margin-top: 0.625rem; 
+    padding: 0.625rem;
     text-align: center; 
 }
 
 .texto-exp p {
     margin: 0; 
-    font-size: 35px; 
+    font-size: 2.1875rem; 
     color: white; 
     font-family: "Roboto Slans";
+}
+
+#home4 {
+    width: 100%;
+    height: 100vh; 
+}
+
+.background-home4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('../imagens/krystian-tambur-k7rZ8wTfABA-unsplash.jpg') no-repeat center center;
+    background-size: cover; 
+}
+
+.imagem-tartaruga4 {
+    padding: 3.125rem; 
+    padding-left: 1.875rem; 
+    width: 35rem; 
+    height: auto;
+    margin-right: 5.625rem;
+    margin-top: 5.3125rem; 
+}
+
+.text-fundo4 {
+    position: absolute;
+    right: 7.5rem; 
+    top: 50%;
+    transform: translateY(-90%); 
+    color: white; 
+    text-align: right; 
+    z-index: 1; 
+}
+    
+.text-fundo4 h1 {
+    width: 640.5rem; 
+    padding: 6.875rem; 
+    height: 20.625rem;  
+    color: white; 
+    font-size: 7rem; 
+    font-family: Roboto Slab;
+    font-weight: 500; 
+    margin-top: 2.5rem; 
+    right: 6.875rem; 
+}
+
+.text-fundo4 p {
+    height: 15.625rem; 
+    color: white; 
+    font-size: 2.8125rem; 
+    font-family: Barlow; 
+    font-weight: 600; 
+    word-wrap: break-word;
+    display: flex;
+    justify-content: right;
+    right: 12.5rem; 
+    text-align: justify;
+    text-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.5); 
+}
+
+#home5 {
+    width: 100%;
+    height: 100vh; 
+}
+
+.background-home5 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('../imagens/krystian-tambur-k7rZ8wTfABA-unsplash.jpg') no-repeat center center;
+    background-size: cover; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.ursoimg5 {
+    display: flex;
+    height: 28rem; 
+    padding: 1rem; 
+    position: relative;
+    top: 13rem; 
+    left: 5rem; 
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+.ursoimg5:hover {
+    transform: scale(1.1);
+}
+
+.areasimg5 {
+    display: flex;
+    height: 28rem; 
+    padding: 1rem; 
+    position: relative;
+    top: 13rem; 
+    left: 5rem; 
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+.areasimg5:hover {
+    transform: scale(1.1);
+}
+
+.titulo-home5 {
+    display: flex;
+    position: absolute;
+    top: 0; 
+    left: 5rem; 
+    margin: 2rem; 
+    font-size: 2.8rem; 
+    font-family: Roboto Slab, serif;
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.2rem #000000;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.text-abaixourso {
+    color: white;
+    font-size: 1.7rem; 
+    display: flex;
+    top: 42rem;
+    position: absolute;
+    left: 18rem; 
+    text-align: center;
+    font-family: Roboto Slab, serif;
+}
+
+.text-abaixoareas {
+    color: white;
+    font-size: 1.7rem; 
+    display: flex;
+    top: 42rem;
+    position: absolute;
+    right: 15rem; 
+    text-align: center;
+    font-family: Roboto Slab, serif;
+}
+
+#home6 {
+    width: 100%;
+    height: 100vh; 
+}
+
+.background-home6 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url('../imagens/thomas-de-luze-vr38_OvkyFE-unsplash.jpg') no-repeat center center;
+    background-size: cover;   
+}
+
+.text-jogo {
+    display: flex;
+    width: 79.063rem; 
+    height: 26.375rem;  
+    justify-content: center;
+    text-align: center; 
+    color: white; 
+    font-size: 6.4rem; 
+    font-family: Roboto Slab;  
+    position: absolute;
+    right: 12rem; 
+    top: 5rem; 
+    text-shadow: 0.125rem 0.125rem 0.313rem rgba(0, 0, 0, 0.5);  
+}
+
+.botao-jogo {
+    display: flex;
+    height: 9.6rem; 
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 50rem;
+    top: 70%;
+    right: 28rem; 
+    transition: transform 0.3s ease-out;
+}
+
+.botao-jogo:hover {
+    transform: scale(1.1);
+}
+
+.linha-cima {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 50rem;
+    top: 13%;
+    right: 25rem; 
+}
+
+.linha-baixo {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-bottom: 50rem;
+    top: 59%;
+    right: 25rem; 
 }

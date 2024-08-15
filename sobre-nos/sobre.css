@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+body {
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background {
+    background: url('/imagens/fundo-sobre.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    width: 90%;
+    max-width: 60.625rem;
+    gap: 5rem;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;  
+    margin-bottom: 3.3rem;  
+    color: #fff;
+    transform: translateY(0.6rem);
+}
+
+.logo-site {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 6.5625rem; 
+    height: auto; 
+    z-index: 1000; 
+    padding: 0 0.625rem; 
+    margin: 0.3125rem; 
+} 
+
+.logo-site {
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10rem;
+    width: 100%;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.5rem;
+    transform: translateY(-1.3rem);
+}
+
+.descricao {
+    font-size: 1.4rem;  
+    margin-top: 0.5rem;  
+    color: #fff;
+    transform: translateY(-1.3rem);
+}
